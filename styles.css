@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    width: 200px;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.menu button {
+    padding: 10px;
+}
+
+.menu a {
+    margin-bottom: 14px;
+}
+
+#homepage_btn {
+    margin-top: 20px;
+}
