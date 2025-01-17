@@ -4,6 +4,8 @@ async function run() {
     const jsonUrl = "https://benjastro.github.io/home-improvement-script/data/off-scripts/windows-opening.json";
 
     data = await offScriptMaker.fetchData(jsonUrl);
+
+    console.log(data);
     element = offScriptMaker.createErrorElements();
     
     if (data) {
