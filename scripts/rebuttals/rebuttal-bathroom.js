@@ -1,7 +1,8 @@
 async function run() {
     rebuttalMaker = await import("./rebuttal-maker.js");
 
-    data = await rebuttalMaker.fetchData(`${document.location.origin}/assets/rebuttals/bathroom.json`);
+    const jsonUrl = "https://benjastro.github.io/home-improvement-script/data/rebuttals/bathroom.json";
+    data = await rebuttalMaker.fetchData(jsonUrl);
     element = rebuttalMaker.createErrorElements();
     
     if (data) {

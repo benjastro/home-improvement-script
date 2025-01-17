@@ -1,7 +1,9 @@
 async function run() {
     offScriptMaker = await import("./off-script-maker.js");
 
-    data = await offScriptMaker.fetchData(`../../data/off-scripts/windows-opening.json`);
+    const jsonUrl = "https://benjastro.github.io/home-improvement-script/data/off-scripts/windows-opening.json";
+
+    data = await offScriptMaker.fetchData(jsonUrl);
     element = offScriptMaker.createErrorElements();
     
     if (data) {
