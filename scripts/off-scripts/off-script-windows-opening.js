@@ -5,7 +5,6 @@ async function run() {
 
     data = await offScriptMaker.fetchData(jsonUrl);
 
-    console.log(data);
     element = offScriptMaker.createErrorElements();
     
     if (data) {
