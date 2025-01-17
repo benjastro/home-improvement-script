@@ -1,7 +1,7 @@
 async function run() {
     offScriptMaker = await import("./off-script-maker.js");
 
-    data = await offScriptMaker.fetchData(`${document.location.origin}/assets/off-scripts/handoff.json`);
+    data = await offScriptMaker.fetchData(`../../data/off-scripts/handoff.json`);
     element = offScriptMaker.createErrorElements();
     
     if (data) {
