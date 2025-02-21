@@ -10,6 +10,11 @@ pro_names.set("capital-construction", {
     "entry_path": "./capital-construction/index.html",
 });
 
+pro_names.set("esler", {
+    "label": "Esler",
+    "entry_path": "./esler/index.html",
+});
+
 pro_names.set("express-flooring", {
     "label": "Express Flooring",
     "entry_path": "./express-flooring/index.html",
