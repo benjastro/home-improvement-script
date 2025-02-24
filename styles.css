@@ -16,3 +16,7 @@
 #homepage_btn {
     margin-top: 20px;
 }
+
+.hideable {
+    display: none;
+}
