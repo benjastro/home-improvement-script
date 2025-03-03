@@ -30,6 +30,11 @@ pro_names.set("long-home", {
     "entry_path": "./long-home/index.html",
 });
 
+pro_names.set("spantronics", {
+    "label": "Spantronics",
+    "entry_path": "./spantronics/index.html",
+});
+
 pro_names.set("victor-roofing", {
     "label": "Victor Roofing",
     "entry_path": "./victor-roofing/index.html",
